@@ -2,9 +2,9 @@
 
 UPDATED - October 2025.
 
-This repository holds test netowrks configured to operate in the PSCAD software, along with generic three-phase averaged switching GFL/GFM models that are scalable and have all parameters exposed for tuning. These models were assembled by Rick Wallace Kenyon during his time at the National Renewable Energy Laboratory and the University of Colorado Boulder. They were built and tuned using a variety of resources that are noted in the publications listed below. 
+This repository holds test netowrks configured to operate in the PSCAD software, along with generic three-phase averaged switching GFL/GFM models that are scalable and have all parameters exposed for tuning. These models were assembled by Rick Wallace Kenyon during his time at the National Renewable Energy Laboratory and the University of Colorado Boulder. They were built and tuned using a variety of resources that are noted in the publications listed below. The most up to date library of models can be found in Droope/lib.
 
-These models are made freely available to anyone who would like to use them, whether as is or modified to whatever extent is desired. Please simply cite the relevant publication to give credit to Wallace.
+These models are made freely available to anyone who would like to use them, whether as is or modified to whatever extent is desired. Please simply cite the publication relevant to the work you're doing to give credit to Wallace
 
 The 'Droope' directory holds the test networks used in Sections 5.1 and 5.2 of the most recent publication:
 'Autonomous grid-forming inverter exponential droop control for improved frequency stability', IJEPES, 2025
