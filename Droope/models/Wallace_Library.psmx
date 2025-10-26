@@ -1,0 +1,12 @@
+<Meta name="Wallace_Library">
+  <messagelist />
+  <ViewContext>
+    <Window defn="Wallace_Library:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1" scrollx="0" scrolly="385" />
+    <View name="SinglePhase_Inverter" zoomscale="1" scrollx="0" scrolly="0" />
+    <View name="P1_Ride_Through" zoomscale="1" scrollx="0" scrolly="208" />
+    <View name="GFM_Inverter_Dev2" zoomscale="0.314573" scrollx="0" scrolly="667" />
+  </List>
+</Meta>

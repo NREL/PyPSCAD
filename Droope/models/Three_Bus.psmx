@@ -1,0 +1,58 @@
+<Meta name="Three_Bus">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="Three_Bus" id="733988570" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.1]]></message>
+    <message status="normal" label="build" groupid="100006" link="1044192228" id="1044192228" classid="FileNavigator"><![CDATA[Generating 'C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81\Three_Bus.map'.]]><file scope="Three_Bus">C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81\Three_Bus.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="Three_Bus" id="139209588" classid="MessageObj"><![CDATA[The total number of live nodes: 60]]></message>
+    <message status="normal" label="build" groupid="0" link="1809767271" id="1809767271" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81\\Three_Bus.mak']]><file scope="Three_Bus">C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81\\Three_Bus.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="Three_Bus" id="12378607" classid="MessageObj"><![CDATA[Time for Compile: 313ms  Make: 16ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="Three_Bus" id="549783353" classid="MessageObj"><![CDATA[Solve Time = 266ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Three_Bus" id="1790614548" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\8.1\x64\bin\gf81vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Three_Bus" id="91799386" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\8.1\x64\bin\gf81vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Three_Bus" id="79191881" classid="MessageObj"><![CDATA[Will execute (2): make -j -f Three_Bus.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Three_Bus" id="1568584896" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81\Three_Bus_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="Three_Bus" id="1953390545" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="Three_Bus" id="1348638962" classid="MessageObj"><![CDATA[C:\Users\matti\Source\PyPSCAD\Droope\models\Three_Bus.gf81>call "C:\Program Files (x86)\GFortran\8.1\x64\bin\gf81vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100004" scope="Three_Bus" id="1278444351" classid="MessageObj"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="Three_Bus" id="1021806593" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'Three_Bus.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="Three_Bus" id="801912287" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.1]]></message>
+    <message status="warning" label="runtime" groupid="200009" id="1741502595" classid="CmpNavigator">
+      <User scope="Three_Bus" name="master:newpi" status="warning" link="1471311559" /><![CDATA[Zero Sequence Resistance is less than Positive Sequence Resistance]]></message>
+    <message status="warning" label="runtime" groupid="200009" id="2065305035" classid="CmpNavigator">
+      <User scope="Three_Bus" name="master:newpi" status="warning" link="522528092" /><![CDATA[Zero Sequence Resistance is less than Positive Sequence Resistance]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Wallace_Library:GFM_Inverter_Dev2" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5" scrollx="1664" scrolly="270" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2025/10/26" time="10:45:10.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="80000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):Gen_2_Q_Set" index="1" gindex="100663297" id="286042331:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pgen_1" index="2" gindex="100663298" id="1058999248:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_1" index="3" gindex="100663299" id="1878298581:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pgen_3" index="4" gindex="100663300" id="1576496864:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_2" index="5" gindex="100663301" id="1285838606:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Pload_2" index="6" gindex="100663302" id="1631500288:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_3" index="7" gindex="100663303" id="1387272282:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ph_2r" index="8" gindex="100663304" id="1693101097:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qgen_1" index="9" gindex="100663305" id="1407308829:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qgen_3" index="10" gindex="100663306" id="1133986055:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Qload_2" index="11" gindex="100663307" id="1794403978:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ph_1" index="12" gindex="100663308" id="243784960:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ph_2" index="13" gindex="100663309" id="795116312:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ph_3" index="14" gindex="100663310" id="769898240:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ph_3r" index="15" gindex="100663311" id="1497330722:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Freq_3" index="16" gindex="100663312" id="1099143587:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Freq_1" index="17" gindex="100663313" id="228059801:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):PS_Active" index="18" gindex="100663314" id="1197616004:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Gen_2_P_Set" index="19" gindex="100663315" id="344244553:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Gen_1_Q_Set" index="20" gindex="100663316" id="299526638:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Gen_1_P_Set" index="21" gindex="100663317" id="1898559956:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
